@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Run custom info module
+      my_info:
+
+    - name: Run custom facts module
+      my_facts:
